@@ -1,16 +1,9 @@
 spring:
+  #环境 dev|test|prod|preview
+  profiles:
+    active: dev
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
-  datasource:
-    url: jdbc:mysql://127.0.0.1:3306/gms_center?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
-    username: root
-    password: 123456
-    driver-class-name: com.mysql.cj.jdbc.Driver
-#  datasource:
-#    url: jdbc:mysql://124.70.94.117:3306/db_yxpg?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
-#    username: db_yxpg
-#    password: db_yxpg@123
-#    driver-class-name: com.mysql.cj.jdbc.Driver
 server:
   port: 9090

@@ -1,0 +1,7 @@
+# 测试环境
+spring:
+  datasource:
+    url: jdbc:mysql://124.70.94.117:3306/db_yxpg?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+    username: db_yxpg
+    password: db_yxpg@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
